@@ -13,6 +13,7 @@ body {
 
 .header  {
 	overflow: hidden;
+	padding: 0 3em;
 }
 
 
@@ -23,7 +24,7 @@ ul.contact {
 
 .contact li {
   display: inline-block;
-  margin: 0 1em 0 0;
+  
   font-size: 1.5em;
   text-align: rigth;
 }
@@ -48,11 +49,8 @@ h1 {
 }
 
 .preview {
-	display: inline-block;
-	min-height: 34em;
-	margin: 1em auto;
-	border: 1px solid rgb(25, 28, 12);
-	border-radius: 10px;
+
+	
 }
 
 .preview img {
@@ -71,4 +69,12 @@ h1 {
 
 .preview p {
 	
+}
+
+.preview-well {
+	margin: 1em 1em;
+	padding: 0 1em;
+ 	border: 1px solid rgb(25, 28, 12);
+	border-radius: 10px;
+	min-height: 34em;
 }
