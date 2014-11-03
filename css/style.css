@@ -3,6 +3,7 @@ body {
 	background-size: cover;
 	font-family: 'Poiret One', cursive;
 	letter-spacing: .1em;
+	font-size: medium;
 }
 
 .frame {
@@ -19,19 +20,18 @@ body {
 	padding: 0 3em;
 }
 
-p {
-
-}
-
 
 ul.contact {
 	text-align: end;
 	margin-top: -1em;	
 }
 
+.contact a {
+	color: #1f3b4f;
+}
+
 .contact li {
-  display: inline-block;
-  
+  display: inline-block;  
   font-size: 1.5em;
   text-align: rigth;
   padding-left: 1em;
@@ -49,23 +49,18 @@ ul.contact {
 h1 {
 	font-size: 4em;
 	text-align: right;
+	letter-spacing: 0;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Play', sans-serif;
 	color: ##1f3b4f;
 }
 
 
-
 .well {
 	border-radius: 20px;
 	border: 1px solid #00fa00;
-}
-
-.preview {
-
-	
 }
 
 .preview img {
@@ -98,3 +93,20 @@ h1, h2, h3 {
 	background-color: #5b717f;
 	color: white;
 }
+
+footer {
+	text-align: right;
+}
+
+footer ul {
+	margin-left: 0;
+}
+footer .contact {
+	display: inline-block;
+}
+
+h4 {
+	display: inline-block;
+	text-align: right;
+}
+
