@@ -1,10 +1,13 @@
 body {
 	background: url("../images/mountains.jpg") no-repeat;
 	background-size: cover;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: .1em;
 }
 
 .frame {
 	background-color: rgba(255, 255, 255, .7);
+	color: #1f3b4f;
 }
 
 .br {
@@ -14,6 +17,10 @@ body {
 .header  {
 	overflow: hidden;
 	padding: 0 3em;
+}
+
+p {
+
 }
 
 
@@ -43,9 +50,16 @@ h1 {
 	text-align: right;
 }
 
+h1, h2, h3 {
+	font-family: 'Play', sans-serif;
+	color: ##1f3b4f;
+}
+
+
+
 .well {
 	border-radius: 20px;
-	border: 1px solid black;
+	border: 1px solid #00fa00;
 }
 
 .preview {
@@ -58,13 +72,12 @@ h1 {
 	margin: 1em auto;
 	display: block;
 	padding: 5px;
-	border: 1px solid black;
+	border: 1px solid #3e3d40;
 }
 
 .preview h3 {
 	font-size: 2em;
 	margin: 1em 0 .25em 0;
-	color: rgb(25, 28, 12);
 }
 
 .preview p {
@@ -74,7 +87,13 @@ h1 {
 .preview-well {
 	margin: 1em 1em;
 	padding: 0 1em;
- 	border: 1px solid rgb(25, 28, 12);
+ 	border: 1px solid #3e3d40;
 	border-radius: 10px;
 	min-height: 34em;
+}
+
+.preview-well:hover {
+	transition: 0.5s;
+	background-color: #5b717f;
+	color: white;
 }
