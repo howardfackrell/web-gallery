@@ -7,7 +7,7 @@ body {
 }
 
 .frame {
-	background-color: rgba(255, 255, 255, .7);
+	background-color: rgba(212, 216, 223, .7);
 	color: #1f3b4f;
 }
 
@@ -76,10 +76,6 @@ h1, h2, h3, h4 {
 	margin: 1em 0 .25em 0;
 }
 
-.preview p {
-	
-}
-
 .preview-well {
 	margin: 1em 1em;
 	padding: 0 1em;
@@ -94,8 +90,14 @@ h1, h2, h3, h4 {
 	color: white;
 }
 
+hr {
+	border-color: #5b717f;
+	width: 75%;	
+}
+
 footer {
 	text-align: right;
+	padding: 1.5em 3em;
 }
 
 footer ul {
