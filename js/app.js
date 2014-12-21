@@ -7,15 +7,15 @@ $(document).ready(function() {
   	window.open(url, '_blank');
   });
 
-  $(".preview-well").find('p').slideUp();
+  // $(".preview-well").find('p').slideUp();
 
   $(".preview-well").on('mouseenter',  function() {
-    $(this).find('p').slideDown();	
+    // $(this).find('p').slideDown();	
     rotate = false;
   });
 
   $(".preview-well").on('mouseleave', function() {
-    $(this).find('p').slideUp();	
+    // $(this).find('p').slideUp();	
     rotate = true;
   });
 });
@@ -29,4 +29,4 @@ window.setInterval(function() {
 		preview.slideDown();
 	});
 	}
-}, 10000);
+}, 20000);

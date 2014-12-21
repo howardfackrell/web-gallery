@@ -89,7 +89,6 @@ h1, h2, h3, h4 {
 	padding: 0 1em;
  	border: 1px solid #3e3d40;
 	border-radius: 10px;
-	/*min-height: 34em;*/
 }
 
 .preview-well:hover {
